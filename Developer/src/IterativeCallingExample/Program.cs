@@ -137,11 +137,11 @@ namespace IterativeCallingExample
                                       powerTool.UsbPassthroughMode =
                                            PowerTool.UsbPassthroughMode.Auto);
                     Console.WriteLine("    BatterySize              = {0}", 
-                                      powerTool.BatterySize =  (uint)1000); 
+                                      powerTool.BatterySize =  (uint)4000); 
                     Console.WriteLine("    EnableMainOutputVoltage  = {0}", 
                                       powerTool.EnableMainOutputVoltage = false);
                     Console.WriteLine("    MainOutputVoltageSetting = {0}", 
-                                      powerTool.MainOutputVoltageSetting = 4.2f);
+                                      powerTool.MainOutputVoltageSetting = 4.0f);
                     Console.WriteLine("    EnableMainOutputVoltage  = {0}", 
                                       powerTool.EnableMainOutputVoltage = true);
                     Console.WriteLine("    Trigger Code             = {0}",
@@ -221,6 +221,9 @@ namespace IterativeCallingExample
                     if (powerTool.HasData)
                     {
                         string myDoc = Environment.GetFolderPath(sf);
+                        //Tristan ++ 
+                        Console.WriteLine("[TRISTAN] {0}", myDoc);
+                 
                         string filePrefix = myDoc + "\\PowerTool\\" + 
                                             serialNumber.ToString() + ".";
 
