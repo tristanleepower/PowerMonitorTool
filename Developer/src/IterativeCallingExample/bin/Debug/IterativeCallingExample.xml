@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IterativeCallingExample</name>
+    </assembly>
+    <members>
+        <member name="T:IterativeCallingExample.Program">
+            <summary>
+            Simple Console Application that demonstrates usage of the PowerTool.Automation interface
+            This example demonstrates the use case of iteratively calling the power tool application and how to cleanly stop and start
+            It includes examples of realtime access to sampling data and also how to export data once sampling is complete.
+            </summary>
+        </member>
+    </members>
+</doc>

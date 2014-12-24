@@ -1,2 +1,0 @@
-E:\Program Files (x86)\Monsoon Solutions Inc\Power Monitor\修改\DeveloperExamples\src\Pt4Reader\bin\Debug\Pt4Reader.exe.config
-E:\1224\DeveloperExamples\src\Pt4Reader\bin\Debug\Pt4Reader.exe.config
